@@ -1,0 +1,59 @@
+.category-container{
+    position: fixed;
+    top: 55px; /* right below header */
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: auto;
+    padding: 8px 12px;
+    z-index:9999;
+}
+.category-buttons{
+    display: flex;
+    gap: 1px;
+    margin-left:257px;
+    margin-top:4px;
+}
+.all-button-style{
+    background-color: black;
+    color: white;
+}
+.all-button-style,
+.cat-button-style{
+    font-size:14px;
+    margin-left:11px;
+    margin-top:2px;
+    margin-bottom:2px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight:bold;
+    border:none;
+    outline:none;
+    padding:8px 12px;
+    border-radius:8px;
+    white-space: nowrap;
+    cursor:pointer;
+}
+.cat-button-style:active{
+    background-color: black;
+    color:white;
+}
+.next-button{
+    position: absolute;
+    right: 7px;
+    top:11.5px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1500;
+    padding-top:4px;
+    padding-bottom: 4px;
+    transition: background-color 0.05s;
+}
+.next-button:hover{
+    background-color: rgb(222, 222, 222);
+    border-radius: 50%;
+    padding-top:9px;
+    padding-bottom:9px;
+    padding-right:10px;
+    padding-left:10px;
+}
